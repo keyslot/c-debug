@@ -4,19 +4,18 @@ Simple header to follow your c code.
 
 ## Use
 
-All these functions return nothing.  
-Except dpoint, which is a int method and returns the current line runing of your code.
-Also dprintf, that returns a call to fprintf. 
+These functions return nothing. Except dpoint, which is a int method and returns the current line runing of your code. 
+Also dprintf, that returns a call to fprintf.  
 
-| Method         | Description                                                                                                                 | 
-|----------------|-----------------------------------------------------------------------------------------------------------------------------|
-|dset(path,mode) | Sets a log_file, similar to call fopen. i.e. dset("./test.log","a+").                                                       | 
-|dauto()         | Sets a log_file automatically from the call source and save it at the same path of the source C file. The mode used is "a+".|
-|dpoint()        | Marks a point of code runing.                                                                                               |
-|dprintf(...)    | Call to fprintf using the `log_file` (if it's open),` i.e. `dprintf("Value of x %d",x)`.                                    |  
-|dclose()        | Close a log_file if was opened.                                                                                             | 
-|dexit_if(e)     | Exit if the logic expr e, save the log_file and call an `EXIT_FAILURE`.                                                     |
-|dwarning_if(e)  | Shows a warning if the logic expr e, save the log_file.                                                                     |
+| Method          | Description                                                                                                                 | 
+|--------------- -|-----------------------------------------------------------------------------------------------------------------------------|
+|dset(path,mode); | Sets a log_file, similar to call fopen. i.e. dset("./test.log","a+").                                                       | 
+|dauto();         | Sets a log_file automatically from the call source and save it at the same path of the source C file. The mode used is "a+".|
+|dpoint();        | Marks a point of code runing.                                                                                               |
+|dprintf(...);    | Call to fprintf using the log_file (if it's open),  i.e. dprintf("Value of x %d",x).                                        |  
+|dclose();        | Close a log_file if was opened.                                                                                             | 
+|dexit_if(e);     | Exit if the logic expr e, save the log_file and call an `EXIT_FAILURE`.                                                     |
+|dwarning_if(e);  | Shows a warning if the logic expr e, save the log_file.                                                                     |
 
 The log_file is a FILE *; 
 
