@@ -8,7 +8,7 @@ These functions return nothing. Except dpoint, which is a int method and returns
 Also dprintf, that returns a call to fprintf.  
 
 | Method          | Description                                                                                                                 | 
-|--------------- -|-----------------------------------------------------------------------------------------------------------------------------|
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------|
 |dset(path,mode); | Sets a log_file, similar to call fopen. i.e. dset("./test.log","a+").                                                       | 
 |dauto();         | Sets a log_file automatically from the call source and save it at the same path of the source C file. The mode used is "a+".|
 |dpoint();        | Marks a point of code runing.                                                                                               |
