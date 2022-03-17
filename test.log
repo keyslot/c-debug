@@ -1,0 +1,28 @@
+
+---
+test.log
+
+
+Log	procces_name=sum,code_line=6,current_file=test/test_function.c,status=Success
+Log	dprintf	3
+Log	procces_name=sum,code_line=6,current_file=test/test_function.c,status=Success
+Log	dprintf	5
+Log	procces_name=sum,code_line=6,current_file=test/test_function.c,status=Success
+Log	dprintf	7
+Log	procces_name=sum,code_line=6,current_file=test/test_function.c,status=Success
+Log	dprintf	9
+Log	procces_name=sum,code_line=6,current_file=test/test_function.c,status=Success
+Log	dprintf	11
+Log	procces_name=sum,code_line=6,current_file=test/test_function.c,status=Success
+Log	dprintf	13
+Log	procces_name=sum,code_line=6,current_file=test/test_function.c,status=Success
+Log	dprintf	15
+Log	procces_name=sum,code_line=6,current_file=test/test_function.c,status=Success
+Log	dprintf	17
+Log	procces_name=sum,code_line=6,current_file=test/test_function.c,status=Success
+Log	dprintf	19
+Log	procces_name=sum,code_line=6,current_file=test/test_function.c,status=Success
+Log	dprintf	21
+Log	procces_name=call,code_line=11,current_file=test/test.c,status=Success
+Log	warning_by_evaluate_if(!fopen(((void *)0),"r")),process_name=main,code_line=17,current_file=test/test.c,status=Bad address:	Error!
+Log	procces_name=main,code_line=18,current_file=test/test.c,status=Success
